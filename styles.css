@@ -7,7 +7,7 @@ body {
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #000; /* Set text color to black or any desired color */
+    color: #000; 
 }
 
 .container {
