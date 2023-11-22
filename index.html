@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>  </title>
+</head>
+<body>
+
+    <header>
+    <div class="container">
+        <img src="C:\Users\12088\Desktop\project\images\Logo2023.jpeg" alt="Earnest Outdoor Services Logo">
+        <h1>Earnest Outdoor Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#What We Do">What We Do</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <span class="phone-number">208-918-2355</span>
+        </div>
+    </div>
+</header>
+
+    <section id="home" class="hero">
+    <div class="container">
+        <img src="C:\Users\12088\Downloads\Untitled (2).png" alt="Your Vision Image" class="hero-image">
+        <div class="hero-text">
+            <h2>Your Vision, Our Creation.</h2>
+            <p>Your Trusted Hometown Professionals for All Things Outdoors.</p>
+            <a href="#contact" class="btn">Get a Free Quote</a>
+        </div>
+    </div>
+</section>
+
+    <section id="services">
+        <div class="container">
+            <h2>What We Do</h2>
+            <div class="service">
+                <img src="C:\Users\12088\Desktop\project\images\PressureWash.jpg">
+                <h3>Pressure Washing</h3>
+                <p>Renew, Refresh, and Reimagine with Our Pressure Washing Service!</p>
+            </div>
+            <div class="service">
+                <img src="C:\Users\12088\Desktop\project\images\Lawncare.jpg" alt="Lawn Maintenance">
+                <h3>Lawncare</h3>
+                <p>Never Worry About Your Lawn Again with Our Expert Care!</p>
+            </div>      
+            <div class="service">
+                <img src="C:\Users\12088\Desktop\project\images\DebrisRemoval.jpg" alt="Garden Design">
+                <h3>Debris Removal</h3>
+                <p>Debris Disappears, Your Peace of Mind Stays. Choose Us!</p>
+            </div>
+            
+            <div class="service">
+                <img src="C:\Users\12088\Desktop\project\images\SnowAd23.png">
+                <h3>Winter/Holiday Services</h3>
+                <p><b>24/7</b> Snow Removal Services in: Payette/Ontario/Fruitland</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <h2>Call or Message Us!</h2>
+            <p>Ready to transform your outdoor space? Reach out to us for a free consultation.<b>208-918-2355</b></p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Earnest Outdoor Services LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

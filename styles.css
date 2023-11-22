@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 1.0;
+    padding: 0;
+    background-image: url("images/websitebackground.png");
+    background-size: 100%; /* Set to '100%' to cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000; /* Set text color to black or any desired color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    /* Remove background-color property to remove the background color */
+    color: #5c9c52; /* Change text color to the provided color */
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 5px; /* Adjust the margin-bottom to move hero section up */
+
+}
+
+header img {
+    max-width: 170px; /* Adjust the maximum width of the logo */
+    height: auto;
+    margin-top: 10.0px; /* Adjust the margin-top to lower the logo */
+    margin-right: 10px; /* Add margin to separate the logo from the header text */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c9c52; /* Change text color to the provided color */
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-image {
+    max-width: 35%; /* Set the maximum width of the image to 50% of its container */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 1.0px
+}
+
+.hero-text {
+    margin-left: 35%; /* Adjust the margin to control the distance between the image and text */
+}
+
+/* Add more styling if needed */
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #012e16; /* Set text color to the provided green */
+    text-align: center;
+    padding: 100px 0;
+    margin-top: -100px; /* Adjust the margin-top to move hero section up */
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #012e16; /* Set text color to the provided green */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #012e16; /* Set button background color to the provided green */
+    color: #5c9c52; /* Change button text color to the provided color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #012e16; /* Set button text color to the provided green on hover */
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.service, .portfolio-item {
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 20px 40px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.service img, .portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.service:hover, .portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #012e16; /* Set footer background color to the provided green */
+    color: #5c9c52; /* Change text color to the provided color */
+    text-align: center;
+    padding: 0.2em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    position: absolute;
+    top: 0;
+    right: -10;
+    margin-top: 20px; /* Adjust the margin to position the phone number */
+    color: #fff; /* Set text color to the provided color */
+}
+
+.phone-number {
+    font-weight: bold;
+}
+
